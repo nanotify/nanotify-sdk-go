@@ -2,7 +2,7 @@
 .PHONY: build
 
 build:
-	go build . 
+	go build -o nanotify-cli ./cli/main.go
 
 test:
 	go test -v -cover ./...
